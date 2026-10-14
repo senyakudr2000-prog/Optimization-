@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.fastchunks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ParticleManagerMixin",
+    "EntityRenderDispatcherMixin",
+    "OptionsScreenMixin"
+  ],
+  "injectors": { "defaultRequire": 0 }
+}
